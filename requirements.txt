@@ -1,12 +1,5 @@
-fastapi==0.115.2
-uvicorn==0.32.0
-streamlit==1.39.0
-requests==2.32.3
-websockets==13.1
-python-dotenv==1.0.1
-openai==0.27.8
-RealtimeTTS==0.1.5
-elevenlabs==1.9.0  # 確保最新版本，支援 STT 和 TTS
-pyaudio==0.2.14
-noisereduce==3.0.2
-soundfile==0.12.1  # 用於音頻處理
+openai-whisper
+gradio
+gtts
+numpy
+gradio>=3.50
